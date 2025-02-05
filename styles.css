@@ -1,0 +1,97 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: #444;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 15px 20px;
+  color: #fff;
+  text-decoration: none;
+  background-color: #444;
+  transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+  background-color: #333;
+}
+
+/* Main Content */
+main {
+  padding: 20px;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.intro,
+.features {
+  background-color: #fff;
+  padding: 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.intro h2,
+.features h2 {
+  color: #333;
+}
+
+.features ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.features ul li {
+  margin: 10px 0;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
